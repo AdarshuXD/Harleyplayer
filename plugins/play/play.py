@@ -8,7 +8,7 @@
 # All rights reserved.
 
 import random
-from modules import string
+import string
 from ast import ExceptHandler
 
 from pyrogram import filters
@@ -17,8 +17,8 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
 from pytgcalls.exceptions import NoActiveGroupCall
 
 from modules import config
-from config import BANNED_USERS, lyrical
-from strings import get_command
+from modules.config import BANNED_USERS, lyrical
+from modules.strings import get_command
 from modules import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
 from modules.core.call import Aditya
