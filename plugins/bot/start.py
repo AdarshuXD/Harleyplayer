@@ -16,7 +16,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from modules import config
 from modules.config import BANNED_USERS
-from config.config import OWNER_ID
+from modules.config.config import OWNER_ID
 from modules.strings import get_command, get_string
 from modules import Telegram, YouTube, app
 from modules.misc import SUDOERS
