@@ -65,18 +65,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
+                url=f"https://t.me/adityahalder"
             )
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                url=f"https://t.me/adityaserver",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                url=f"https://t.me/adityadiscus",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                url=f"https://t.me/kaalxd"
+            )
         ],
     ]
     return buttons
@@ -89,17 +96,24 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
+                url=f"https://t.me/adityahalder"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                url=f"https://t.me/adityaserver",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                url=f"https://t.me/adityadiscus",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                url=f"https://t.me/kaalxd"
             )
         ],
     ]
@@ -110,12 +124,25 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
+                text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
+                url=f"https://t.me/adityahalder"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                url=f"https://t.me/adityaserver",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                url=f"https://t.me/adityadiscus",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                url=f"https://t.me/kaalxd"
+            )
         ],
     ]
     return buttons
