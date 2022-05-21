@@ -24,7 +24,7 @@ from modules.strings import get_command
 from modules import YouTube, app
 from modules.core.userbot import assistants
 from modules.misc import SUDOERS, pymongodb
-from modules.plugins import ALL_MODULES
+from plugins import ALL_MODULES
 from modules.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
