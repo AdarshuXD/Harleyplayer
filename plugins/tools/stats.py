@@ -19,7 +19,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 from modules import config
-from config import BANNED_USERS, MUSIC_BOT_NAME
+from modules.config import BANNED_USERS, MUSIC_BOT_NAME
 from modules.strings import get_command
 from modules import YouTube, app
 from modules.core.userbot import assistants
