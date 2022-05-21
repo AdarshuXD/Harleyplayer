@@ -9,7 +9,7 @@
 
 from pyrogram import filters
 
-from config import BANNED_USERS
+from modules.config import BANNED_USERS
 from modules import YouTube, app
 from modules.utils.channelplay import get_channeplayCB
 from modules.utils.decorators.language import languageCB
