@@ -20,8 +20,8 @@ from modules.config.config import OWNER_ID
 from modules.strings import get_command, get_string
 from modules import Telegram, YouTube, app
 from modules.misc import SUDOERS
-from modules.plugins.play.playlist import del_plist_msg
-from modules.plugins.sudo.sudoers import sudoers_list
+from plugins.play.playlist import del_plist_msg
+from plugins.sudo.sudoers import sudoers_list
 from modules.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
