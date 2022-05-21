@@ -15,7 +15,7 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 from modules import config
-from config import BANNED_USERS
+from modules.config import BANNED_USERS
 from modules import LOGGER, app, userbot
 from modules.core.call import Aditya
 from modules.plugins import ALL_MODULES
