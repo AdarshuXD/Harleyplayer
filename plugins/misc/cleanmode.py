@@ -15,8 +15,8 @@ from pyrogram.errors import FloodWait
 from pyrogram.raw import types
 
 from modules import config
-from config import adminlist, chatstats, clean, userstats
-from strings import get_command
+from modules.config import adminlist, chatstats, clean, userstats
+from modules.strings import get_command
 from modules import app, userbot
 from modules.misc import SUDOERS
 from modules.utils.database import (get_active_chats,
