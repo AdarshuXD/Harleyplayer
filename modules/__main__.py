@@ -18,7 +18,7 @@ from modules import config
 from modules.config import BANNED_USERS
 from modules import LOGGER, app, userbot
 from modules.core.call import Aditya
-from modules.plugins import ALL_MODULES
+from plugins import ALL_MODULES
 from modules.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
