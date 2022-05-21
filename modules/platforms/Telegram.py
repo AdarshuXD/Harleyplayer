@@ -16,8 +16,7 @@ from typing import Union
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
 
-from modules import config
-from config import MUSIC_BOT_NAME, lyrical
+from modules.config import MUSIC_BOT_NAME, lyrical
 from modules import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
