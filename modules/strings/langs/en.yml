@@ -6,7 +6,7 @@ general_2 : "Error! Wrong Usage of Command."
 general_3 : "Some **exception occured** while processing your query.\n\nException Type:- {0}"
 general_4 : "You're an anonymous admin in this chat group!\nRevert back to User Account From Admin Rights."
 general_5 : "You need to be admin with manage voice chat rights to perform this action."
-general_6 : "Bot isn't streaming on voice chat."
+general_6 : "**💥 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**"
 
 # Classes - Telegram.py
 tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
@@ -36,16 +36,16 @@ auth_7 : "**Authorised Users List[AUL]:**\n\n"
 auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
-admin_1 : "Music is already Paused."
-admin_2 : "🎧 Voicechat Paused by {}!"
-admin_3 : "Music is already resumed."
-admin_4 : "🎧 Voicechat Resumed by {}!"
+admin_1 : "**🥀 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 ▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+admin_2 : "**▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+admin_3 : "**🥀 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 ⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**"
+admin_4 : "**⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**"
 admin_5 : "Music is already muted."
 admin_6 : "🎧 Voicechat Muted by {}!"
 admin_7 : "Music is already unmuted."
 admin_8 : "🎧 Voicechat Unmuted by {}!"
-admin_9 : "🎧 Voicechat End/Stopped by {}!"
-admin_10 : "🎧 Voicechat Skipped by {}!. No More Music in Queue."
+admin_9 : "**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+admin_10 : "**🥀 𝑸𝒖𝒆𝒖𝒆 𝑬𝒎𝒑𝒕𝒚, 𝑳𝒆𝒂𝒗𝒊𝒏𝒈 𝑽𝑪 ✨ ...**"
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
 admin_13 : "Please use numeric numbers for specific tracks, like 1, 2 or 4 etc"
@@ -163,7 +163,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**"
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
@@ -222,17 +222,17 @@ song_10 : "Failed to upload on telegram from servers."
 song_11 : "Uploading Started\n\nUploading speed could be slow. Please hold on.."
 
 # Tools - Queue
-queue_1 : "Please Wait..Fetching Queue.."
-queue_2 : "Queued List is empty. No tracks found"
+queue_1 : "𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭, 𝐅𝐞𝐭𝐜𝐡𝐢𝐧𝐠 𝐐𝐮𝐞𝐮𝐞 ..."
+queue_2 : "❌ 𝐐𝐮𝐞𝐮𝐞𝐝 𝐋𝐢𝐬𝐭 𝐢𝐬 𝐄𝐦𝐩𝐭𝐲,\n𝐍𝐨 𝐓𝐫𝐚𝐜𝐤𝐬 𝐅𝐨𝐮𝐧𝐝 ..."
 queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
+queue_4 : "**💥 𝐀𝐝𝐢𝐭𝐲𝐚 🥀 𝐏𝐥𝐚𝐲𝐞𝐫 💿 𝐍𝐨𝐰❗️\n🔊 𝐐𝐮𝐞𝐮𝐞𝐝 💞 𝐀𝐭 »** `{0}`"
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
-stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
-stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
+stream_1 : "**💥 𝐀𝐝𝐢𝐭𝐲𝐚 🌺 𝐏𝐥𝐚𝐲𝐞𝐫 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**"
+stream_2 : "**💥 𝐀𝐝𝐢𝐭𝐲𝐚 🌺 𝐏𝐥𝐚𝐲𝐞𝐫 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**"
+stream_3 : "**💥 𝐀𝐝𝐢𝐭𝐲𝐚 🌺 𝐏𝐥𝐚𝐲𝐞𝐫 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**"
+stream_4 : "**💥 𝐀𝐝𝐢𝐭𝐲𝐚 🌺 𝐏𝐥𝐚𝐲𝐞𝐫 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**"
 
 # Inline Buttons
 
