@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from modules import config
-from config import BANNED_USERS
+from modules.config import BANNED_USERS
 from modules.strings import get_command
 from modules import YouTube, app
 from modules.core.call import Aditya
