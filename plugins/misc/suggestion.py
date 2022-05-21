@@ -12,7 +12,7 @@ import random
 from datetime import datetime, timedelta
 
 from modules import config
-from config import clean
+from modules.config import clean
 from modules.strings import get_string
 from modules import app
 from modules.utils.database import (get_lang,
