@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Aditya.decorators()
-    LOGGER("modules").info("Aditya Music Bot Started Successfully")
+    LOGGER("modules").info("Harley Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("modules").info("Stopping Aditya Music Bot! GoodBye")
+    LOGGER("modules").info("Stopping Harley Music Bot! GoodBye")
